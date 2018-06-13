@@ -15,6 +15,11 @@
 	//Functions
 	function addStuff() {
 		//console.log("from addStuff");
+		//console.log(num1.value);
+		//console.log(num2.value);
+		var total = parseInt(num1.value) + parseFloat(num2.value);
+		//console.log(total);
+		outcome.innerHTML = total;
 	}
 	
 	
